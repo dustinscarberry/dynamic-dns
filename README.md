@@ -24,5 +24,5 @@ $ cp docker-compose.override.example.yml docker-compose.override.yml
 3. Run docker container via crontab
 
 ```sh
-0 * * * * docker compose run -rm -f /path/to/docker-compose.yml
+0 * * * * docker compose -f /path/to/docker-compose.yml -f /path/to/docker-compose.override.yml run --rm dynamic_dns
 ```
