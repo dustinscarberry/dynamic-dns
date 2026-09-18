@@ -1,0 +1,6 @@
+services:
+  dynamic_dns:
+    environment:
+      - API_KEY=xxxxxxxxxxxxxx
+      - DYNAMIC_DNS_TYPE=cloudflare
+      - HOSTNAME=lanny.dscarberry.com

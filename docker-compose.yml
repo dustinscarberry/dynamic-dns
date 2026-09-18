@@ -1,0 +1,6 @@
+services:
+  dynamic_dns:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped

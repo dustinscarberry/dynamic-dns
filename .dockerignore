@@ -1,0 +1,10 @@
+.vagrant
+vagrant
+.git
+.gitignore
+README.MD
+Vagrantfile
+.DS_Store
+public/build
+node_modules
+.env
